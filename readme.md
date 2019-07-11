@@ -1,3 +1,4 @@
+Linda EU controlled vocabularies
 Linda EU controlled vocabularies provides an elastic search api for the Eu controlled vocabularies (https://publications.europa.eu/en/web/eu-vocabularies/controlled-vocabularies)
 Currently license, country and language are supported. 
 
