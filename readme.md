@@ -1,4 +1,4 @@
-#Linda EU controlled vocabularies
+# Linda EU controlled vocabularies
 
 Linda EU controlled vocabularies provides an elastic search api for the Eu controlled vocabularies (https://publications.europa.eu/en/web/eu-vocabularies/controlled-vocabularies)
 Currently license, country and language are supported. 
@@ -16,7 +16,8 @@ Currently license, country and language are supported.
 		- example valid queries, based on url, on every of the 3 indexes to check functionality of the installation.
 
 4. Below you can see an example of how a query should be performed:
-
+```
 docker exec -it es01 curl <query> (e.g -> -XGET "localhost:9200/licence_index/_search?pretty" -H "Content-Type: application/json" -d @query/query_url.json)
+```
 
 Enjoy!
