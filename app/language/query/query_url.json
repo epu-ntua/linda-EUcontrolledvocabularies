@@ -1,0 +1,1 @@
+{"_source":false,"query":{"bool":{"must":[{"match":{"about":"http://publications.europa.eu/resource/authority/language/ENG"}},{"nested":{"path":"prefLabel","query":{"match":{"prefLabel.@lang":"sh"}},"inner_hits":{"highlight":{"fields":{"prefLabel.#text":{}}}}}}]}}}

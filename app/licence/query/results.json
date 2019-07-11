@@ -1,0 +1,52 @@
+{
+  "took" : 1,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 1,
+      "relation" : "eq"
+    },
+    "max_score" : 6.2435737,
+    "hits" : [
+      {
+        "_index" : "licence_index",
+        "_type" : "_doc",
+        "_id" : "3",
+        "_score" : 6.2435737,
+        "inner_hits" : {
+          "prefLabel" : {
+            "hits" : {
+              "total" : {
+                "value" : 1,
+                "relation" : "eq"
+              },
+              "max_score" : 2.777838,
+              "hits" : [
+                {
+                  "_index" : "licence_index",
+                  "_type" : "_doc",
+                  "_id" : "3",
+                  "_nested" : {
+                    "field" : "prefLabel",
+                    "offset" : 4
+                  },
+                  "_score" : 2.777838,
+                  "_source" : {
+                    "@lang" : "en",
+                    "#text" : "Creative Commons Attribution–NonCommercial 4.0 International"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

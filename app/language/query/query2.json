@@ -1,0 +1,1 @@
+{"query":{"bool":{"must":[{"term":{"identifier":"ENG"}},{"nested":{"path":"prefLabel","query":{"match":{"prefLabel.@lang":"pt"}},"inner_hits":{"highlight":{"fields":{"prefLabel.#text":{}}}}}}]}}}

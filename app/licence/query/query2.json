@@ -1,0 +1,1 @@
+{"query":{"bool":{"must":[{"term":{"identifier":"EUPL_1_0"}},{"nested":{"path":"altLabel","query":{"match":{"altLabel.@lang":"sv"}},"inner_hits":{"highlight":{"fields":{"altLabel.#text":{}}}}}}]}}}

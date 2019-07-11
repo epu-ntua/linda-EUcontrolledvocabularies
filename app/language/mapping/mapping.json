@@ -1,0 +1,32 @@
+{
+  "settings": {
+    "index": {
+      "blocks.read_only": false,
+      "blocks": {
+        "read_only_allow_delete": false
+      }
+    }
+  },
+  "mappings": {
+    "properties": {
+      "identifier":{
+        "type": "keyword",
+        "index": true
+      },
+      "authority-code":{
+        "type": "keyword",
+        "index": true
+      },
+      "about":{
+        "type": "keyword",
+        "index": true
+      },
+      "prefLabel": {
+        "type": "nested",
+        "properties":{
+          "@lang": {"type": "keyword","index": true}
+        }
+      }
+    }
+  }
+}

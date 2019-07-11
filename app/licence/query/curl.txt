@@ -1,0 +1,7 @@
+Cloud:
+
+curl --user elastic:FWMKaMvQqYYODVZiiG8oqOZC -XGET "https://3d37f1e3790a44a188c45273d613b2e0.us-east-1.aws.found.io:9243/licence_index/_search?pretty" -H "Content-Type: application/json" -d @query.json > results.json
+
+Localhost:
+
+curl -XGET "localhost:9200/licence_index/_search?pretty" -H "Content-Type: application/json" -d @query.json > results.json

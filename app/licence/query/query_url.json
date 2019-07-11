@@ -1,0 +1,1 @@
+{"_source":false,"query":{"bool":{"must":[{"match":{"about":"http://publications.europa.eu/resource/authority/licence/CC_BYNC"}},{"nested":{"path":"prefLabel","query":{"match":{"prefLabel.@lang":"en"}},"inner_hits":{"highlight":{"fields":{"prefLabel.#text":{}}}}}}]}}}

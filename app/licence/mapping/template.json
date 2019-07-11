@@ -1,0 +1,7 @@
+{
+  "template": "*",
+  "settings": {
+    "number_of_shards": 50,
+    "number_of_replicas": 5
+  }
+}
