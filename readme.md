@@ -1,3 +1,6 @@
+Linda EU controlled vocabularies provides an elastic search api for the Eu controlled vocabularies (https://publications.europa.eu/en/web/eu-vocabularies/controlled-vocabularies)
+Currently license, country and language are supported. 
+
 1. Open Docker Quick start terminal / Linux terminal and set this folder as wd (cd /.../final_docker_all)
 
 2. Open the file "settings.txt"and follow instructions depending on your system, so as to set higher memory limits required by elasticsearch.
